@@ -2001,7 +2001,6 @@ pre code {
 	right: 0;
 	bottom: 0;
 	top:0;
-	color: #ec1c24;
 	opacity: 0;
 	z-index: 100;
 	padding: 10px;
@@ -2021,9 +2020,12 @@ pre code {
 
 .boxHover:hover{
 	background-color: #fff;
-	color: inherit;
 	opacity: 1;
 	text-decoration: none;
+}
+
+.boxHover:hover h1{
+	color: #ec1c24;
 }
 
 /* Backgraounds for each character */
