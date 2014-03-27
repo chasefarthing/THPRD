@@ -1936,28 +1936,49 @@ pre code {
 .characters div{
 	
 	height: 200px;
-	padding:10px 0 0 10px;
+
 
 }
 
 
 
 
-.box h2{
+.characters h1{
 	padding:0;
 	margin: 0;
+	
 
 }
 
-.box {
-	
+.boxHover {
+	position: absolute;
+	left:0;
+	right: 0;
+	bottom: 0;
+	top:0;
 	color: #ec1c24;
+	opacity: 0;
+	z-index: 100;
+	padding: 10px;
 	
 }
 
-.box div:hover{
+.box{
+	position: absolute;
+	left:0;
+	right: 0;
+	bottom: 0;
+	top:0;
+	color: #ec1c24;
+	z-index: 50;
+	padding: 10px;
+}
+
+.boxHover:hover{
 	background-color: #ec1c24;
 	color: #fff;
+	opacity: 1;
+	text-decoration: none;
 }
 
 
