@@ -2020,8 +2020,8 @@ pre code {
 }
 
 .boxHover:hover{
-	background-color: #ec1c24;
-	color: #fff;
+	background-color: #fff;
+	color: inherit;
 	opacity: 1;
 	text-decoration: none;
 }
