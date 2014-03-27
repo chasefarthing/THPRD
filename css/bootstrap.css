@@ -353,7 +353,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-   max-width: 1920px;
+   max-width: 1400px;
 }
 .row {
   margin-left: -15px;
@@ -1920,8 +1920,18 @@ pre code {
   border-radius: 6px;
 }
 
+.logo{
+	position: relative;
+	bottom:40px;
+	width: 400px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+
 .footer{
 	text-align: center;
+	margin-top: 100px;
 }
 
 .footer i{
@@ -1935,7 +1945,7 @@ pre code {
 }
 .characters div{
 	
-	height: 200px;
+	height: 225px;
 
 
 }
@@ -1952,12 +1962,27 @@ pre code {
 
 }
 
+.boxHover h4{
+	padding: 0;
+	margin: 0;
+}
+
 .location{
+	font-size: 10px;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 55;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+.number{
 	font-size: 10px;
 	vertical-align: bottom;
 	position: absolute;
 	z-index: 55;
 	bottom: 0;
+	line-height: .94em;
 }
 
 .boxHover {
