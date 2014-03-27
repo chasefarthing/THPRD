@@ -1911,6 +1911,8 @@ pre code {
   color: #ffffff;
   background-color: #ec1c24;
   border-color: #d43f3a;
+  position: relative;
+  z-index: 200;
 }
 
 .btn-lg {
@@ -1932,15 +1934,23 @@ pre code {
 .footer{
 	text-align: center;
 	margin-top: 100px;
+	z-index: 200;
+	position: relative;
 }
 
-.footer i{
+.footer a{
 	color: #413f44;
 	padding: 0 5%;
+	text-align: center;
 }
 
-.footer i:hover{
+.footer a:hover{
 	color: #ec1c24;
+
+}
+
+.footer a{
+	font-size: 5em;
 
 }
 .characters div{
@@ -1982,7 +1992,8 @@ pre code {
 	position: absolute;
 	z-index: 55;
 	bottom: 0;
-	line-height: .94em;
+	line-height: .96em;
+	opacity: .5;
 }
 
 .boxHover {
