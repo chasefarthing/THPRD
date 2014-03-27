@@ -1958,6 +1958,11 @@ i {
 	color: #424145;
 }
 
+.footer i:hover{
+	color: #ec1c24;
+
+}
+
 .characters, .jumbotron{
 	   max-width: 1400px;
 	   margin: 0 auto;
