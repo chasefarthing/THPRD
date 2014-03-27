@@ -1920,4 +1920,28 @@ pre code {
 .footer i{
 	padding: 0 5%;
 }
+.characters div{
+	
+	height: 200px;
+	padding:10px;
+	text-align: center;
+}
+
+.characters div:nth-child(5n-4){
+	background: blue;
+}
+.characters div:nth-child(5n-3){
+	background: green;
+}
+
+.characters div:nth-child(5n-2){
+	background: red;
+}
+
+.characters div:nth-child(5n-1){
+	background: orange;
+}
+.characters div:nth-child(5n){
+	background: #5e3504;
+}
 
