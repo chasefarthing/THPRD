@@ -208,7 +208,7 @@ body {
   background-color: #f7e97d;
 
   background-position: top center;
-  background-size: 500px;
+  background-size: 300px;
 }
 input,
 button,
@@ -1983,18 +1983,10 @@ pre code {
 	position: relative;
 	z-index: 55;
 	bottom: 0;
-	padding: 0;
+	padding: 0 0 5px 0;
 	margin: 0;
 }
-.number{
-	font-size: 10px;
-	vertical-align: bottom;
-	position: absolute;
-	z-index: 55;
-	bottom: 0;
-	line-height: .96em;
-	opacity: .5;
-}
+
 
 .boxHover {
 	position: absolute;
@@ -2029,6 +2021,15 @@ pre code {
 
 /* Backgraounds for each character */
 .theater{background: url('../img/box_theater.png')no-repeat 0 0;}
+.agent{background: url('../img/box_agent.png')no-repeat 0 0; }
+.archer{background: url('../img/box_archer.png')no-repeat 0 0; }
+.cross{background: url('../img/box_cross.png')no-repeat 0 0; }
+.dive{background: url('../img/box_dive.png')no-repeat 0 0; }
+.extreme{background: url('../img/box_extreme.png')no-repeat 0 0; }
+.life{background: url('../img/box_life.png')no-repeat 0 0; }
+.survive{background: url('../img/box_survive.png')no-repeat 0 0; }
+.water{background: url('../img/box_water.png')no-repeat 0 0; }
+
 
 /* After All backgrounds!! */
 .box{
