@@ -345,6 +345,7 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     width: 100%;
+   
   }
 }
 .container-fluid {
@@ -352,6 +353,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+   max-width: 1920px;
 }
 .row {
   margin-left: -15px;
@@ -1934,25 +1936,33 @@ pre code {
 .characters div{
 	
 	height: 200px;
-	padding:10px;
-	text-align: center;
+	padding:10px 0 0 10px;
+
 }
 
-.characters div:nth-child(5n-4){
-	background: blue;
-}
-.characters div:nth-child(5n-3){
-	background: green;
+
+
+
+.box h2{
+	padding:0;
+	margin: 0;
+
 }
 
-.characters div:nth-child(5n-2){
-	background: red;
+.box {
+	
+	color: #ec1c24;
+	
 }
 
-.characters div:nth-child(5n-1){
-	background: orange;
+.box div:hover{
+	background-color: #ec1c24;
+	color: #fff;
 }
-.characters div:nth-child(5n){
-	background: #5e3504;
+
+
+.theater{
+	background: url('../img/box_theater.png')no-repeat 0 0;
+	background-position: center bottom;
 }
 
