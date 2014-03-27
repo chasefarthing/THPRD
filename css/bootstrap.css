@@ -353,7 +353,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-   max-width: 1400px;
+
 }
 .row {
   margin-left: -15px;
@@ -1953,6 +1953,13 @@ pre code {
 	font-size: 5em;
 
 }
+
+.characters, .jumbotron{
+	   max-width: 1400px;
+	   margin: 0 auto;
+	 
+}
+
 .characters div{
 	
 	height: 225px;
