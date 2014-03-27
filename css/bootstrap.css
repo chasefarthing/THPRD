@@ -1946,8 +1946,18 @@ pre code {
 .characters h1{
 	padding:0;
 	margin: 0;
+	line-height: .9em;
+	font-size: 1.7em;
 	
 
+}
+
+.location{
+	font-size: 10px;
+	vertical-align: bottom;
+	position: absolute;
+	z-index: 55;
+	bottom: 0;
 }
 
 .boxHover {
@@ -1981,9 +1991,12 @@ pre code {
 	text-decoration: none;
 }
 
+/* Backgraounds for each character */
+.theater{background: url('../img/box_theater.png')no-repeat 0 0;}
 
-.theater{
-	background: url('../img/box_theater.png')no-repeat 0 0;
-	background-position: center bottom;
+/* After All backgrounds!! */
+.box{
+background-position: center bottom;
 }
+
 
