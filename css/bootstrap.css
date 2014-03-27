@@ -1954,6 +1954,10 @@ pre code {
 
 }
 
+i {
+	color: #424145;
+}
+
 .characters, .jumbotron{
 	   max-width: 1400px;
 	   margin: 0 auto;
