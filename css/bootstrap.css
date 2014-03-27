@@ -204,7 +204,11 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #413f44;
+    background: url('../img/THPRD_logo.svg')no-repeat 0 0;
   background-color: #f7e97d;
+
+  background-position: top center;
+  background-size: 500px;
 }
 input,
 button,
@@ -1359,8 +1363,9 @@ pre code {
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
   color: inherit;
+  max-width: 1000px;
 
 }
 .jumbotron h1,
@@ -1918,7 +1923,13 @@ pre code {
 }
 
 .footer i{
+	color: #413f44;
 	padding: 0 5%;
+}
+
+.footer i:hover{
+	color: #ec1c24;
+
 }
 .characters div{
 	
