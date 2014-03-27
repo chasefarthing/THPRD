@@ -2024,7 +2024,7 @@ pre code {
 	text-decoration: none;
 }
 
-.boxHover:hover h1{
+.boxHover:hover h1, h4{
 	color: #ec1c24;
 }
 
