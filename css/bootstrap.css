@@ -1924,8 +1924,8 @@ pre code {
 
 .logo{
 	position: relative;
-	bottom:40px;
-	width: 400px;
+	bottom:-20px;
+	width: 200px;
 	height: 100px;
 	margin: 0 auto;
 
