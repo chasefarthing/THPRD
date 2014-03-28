@@ -1375,6 +1375,9 @@ pre code {
   color: #ec1c24;
   text-align: center;
   margin: 0px;
+  font-family: 'Ultra', serif;
+  font-weight: normal;
+  
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -1400,6 +1403,7 @@ pre code {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+    
   }
 }
 .modal-open {
@@ -1977,7 +1981,10 @@ i {
 }
 
 
-
+h1{
+	font-family: 'Ultra', serif;
+	font-weight: normal;
+}
 
 .characters h1{
 	padding:0;
